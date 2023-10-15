@@ -1,0 +1,679 @@
+*{
+    margin:none;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#dddddd;
+    font-size:0.85rem;
+    font-weight:500;
+}
+
+.AWS-Navigation-bar{
+    position:fixed;
+    width:100%;
+}
+/*     ------------------------------ AWS Navbar ------------------------------------ start*/
+
+.aws-navbar{
+    height:4rem;
+    width:100%;
+    background-color:#232f3e;
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+.aws-logo{
+    height:2.5rem;
+    width:4.12rem;
+    background-image: url(./assets/Annotation.png);
+    background-size: cover;
+   
+}
+.dropdowns{
+    color: #dddddd;  
+    font-size:0.75rem;
+    font-weight: 600; 
+    background-color: #232f3e;
+}
+.dropdowns:hover{
+    color:white;
+}
+.create-account{
+    height:2.25rem;
+    width:12.12rem;
+    font-size:0.85rem;
+    font-weight: 700;
+    color:#000716;
+    background-color:#ff9900;
+    border:none;
+    border-radius: 2rem;
+}
+.create-account:hover{
+    background-color: #ff7c01;
+}
+
+.aws-navbar-links{
+    height:4rem;
+    width:40rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:baseline;
+ 
+}
+.aws-navbar{
+    padding:1rem 1rem 1rem 2.5rem;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.navbar-item{
+    padding:0.25rem;
+    color:#dddddd;
+    font-size:0.9rem;
+    font-weight:500;
+}
+.navbar-item:hover{
+    color:#ff9900;
+    border:2px solid rgb(87, 87, 255);
+    border-radius: 5px;
+}
+/*     ------------------------------ AWS Navbar ------------------------------------ end*/
+
+
+/*     ------------------------------ AWS Navbar 2 ------------------------------------ start*/
+.aws-2ndary-navbar{
+    height:3rem;
+    width:100%;
+    background-color:#232f3e; 
+}
+.navbar-options{
+   padding-left:2rem;
+    width:85%;
+    display:flex; 
+    align-items:baseline; 
+    justify-content: space-evenly;
+}
+.nav-option{
+    color:#dddddd;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.25rem 0.7rem 0rem 0.5rem;
+}
+.aws-2ndary-navbar i{
+    color:#dddddd;
+    padding: 0rem 1rem;
+}
+.nav-option a{
+    font-size: 0.96rem;
+}
+.nav-option a:hover{
+    color:#ff9900;
+}
+.navbar-options i:hover{
+    color:#ff9900; 
+}
+/*     ------------------------------ AWS Navbar 2 ------------------------------------ end*/
+
+
+/*     ------------------------------ Hero section ------------------------------------ start*/
+.hero-section{
+    background-image: url(./assets/gradient.png);
+    background-size: cover;
+    width:100%vh;
+    height:460px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+ }
+ .heropicture{
+    background-image: url(./assets/hero-picture.png);
+    background-size: cover;
+    height:272px;
+    width:480px;
+    margin-bottom: 3.5rem;
+ }
+.herolink {
+    color:#67a29c;
+    margin-bottom: 3.5rem;
+}
+.herolink a{
+    color:#67a29c;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.herolink i{
+    color:#67a29c;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.hero-heading{
+    color:#ffffff;
+  font-weight: 900;
+  font-size: 2.59rem;
+  /* margin-bottom: 1rem; */
+}
+.hero-subheading{
+    color:#ffffff;
+  font-weight: 300;
+  font-size:1.35rem;
+  width:600px;
+}
+
+/*     ------------------------------ Hero section ------------------------------------ end*/
+
+
+/*     ------------------------------ cards -  section ------------------------------------ start*/
+
+.aws-features{
+    height:320px;
+    width:100%vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.feature-card{
+   height:268px;
+   width:278px;
+   border:0.5px solid rgb(83, 82, 82,0.3);
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   padding:0.95rem;
+   margin-left:1.3rem;
+   cursor:pointer;
+}
+.feature-card:hover{
+    border:0.15rem solid rgb(46, 46, 236,0.5);
+    border-radius: 5px;
+}
+.feature-card img{
+    height:121.56px;
+    width:248px;
+}
+.feature-card a{
+font-size:0.87rem ;
+font-weight: 600;
+color: #0972d3;
+}
+.card-text p{
+    font-size: 0.81rem;
+    color:#333333;
+    font-weight:400;
+}
+/*     ------------------------------ cards -  section ------------------------------------ end*/
+
+/*     ------------------------------ featurebar -  section ------------------------------------ start*/
+.featurebar{
+    height:100px;
+    width:100%vh;
+    background-color: #005276;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.featurebar-item{
+    height:63px;
+    width:300px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+  margin:0.5rem;
+}
+.featurebar-item:hover{
+    border:0.15rem solid rgb(46, 46, 236);
+    border-radius: 8px;
+}
+.featurebar-item a{
+    color:white;
+ font-weight:700;
+ font-size: 0.85rem;
+}
+.featurebar-item-text{
+    color:white;
+    font-size: 0.81rem;
+}
+
+/*     ------------------------------ featurebar -  section ------------------------------------ start*/
+
+/*     ------------------------------ Explore solution -  section ------------------------------------ start*/
+
+.explore-heading{
+    color:#232f3e;
+    text-align: center;
+    margin:2.5rem 0rem 0rem 0rem;
+    font-size: 2.25rem;
+}
+
+.explore-solution-container h3{
+    font-size: 1.25rem;
+    color:#232f3e;
+    font-weight: 600;
+    margin:1rem 0rem 1.5rem 5.8rem;
+}
+.explore-solution-container .viewlink a,i{
+   color:#065299;
+    font-size:1.13rem;
+    margin:1rem 0rem 0rem 0rem;
+    font-weight: 400;
+    padding-top: 0.87rem;
+}
+.viewlink{
+    align-self: flex-end;
+    margin-right:5.5rem;
+}
+.viewlink i{
+    font-size: 0.9rem;
+}
+.explore-solution-cards-container-items{
+        height:204px;
+        width:285px;
+        padding:0.93rem;
+        margin-left:0.5rem;
+        border:0.5px solid rgb(83, 82, 82,0.3);
+        border-top: 0.35rem solid #232f3e;
+        /* box-shadow:0.5px 0.5px 1px #232f3e; */
+}
+.explore-solution-cards-container-items h4{
+    color:#0972d3;
+    font-size:1.12rem ;
+    font-weight: 600;
+    margin:1rem 0rem 1rem 0rem;
+}
+.explore-solution-cards-container-items p{
+    font-size: 0.87rem;
+}
+.explore-solution-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:2rem;  
+}
+.explore-cards{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*     ------------------------------ Explore solution -  section ------------------------------------ end*/
+
+/*     ------------------------------ Explore product -  section ------------------------------------ start*/
+
+.product-card-container{
+    margin-left:6rem;
+    display:flex;
+    justify-content: flex-start;
+ }
+
+.product-heading{
+  
+    color:#232f3e;
+    display:flex;
+    justify-content: center;
+    height:2.8125rem;
+    width:73.8rem;
+    margin:6rem 0rem 3.6rem 6rem;
+}
+.product-heading h2{
+    font-size:2.25rem;
+    font-weight: 400;
+}
+
+.product-cards{
+    background-color: #232f3e;
+    height:10rem;
+    width:10rem;
+    padding:0.9375rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right:0.625rem;
+}
+.card-text{
+    font-size: 0.87rem;
+    font-weight: 700;
+    color:#ffffff;
+    margin-top:1rem;
+}
+.card-image{
+  margin-top:0.8rem;
+}
+
+/*----------------------------product services -------------*/
+
+.product-service-card-container{
+    display:flex;
+    justify-content:center;
+    width:73.8rem;
+    margin-left:5.4rem;
+   
+}
+.product-services-cards{
+    height:146px;
+    width:214px;
+    border:0.1rem solid rgb(15, 13, 13,0.5);
+    display:flex;
+    flex-direction:column;
+    padding:1rem;
+    margin:1.8rem 0rem 0.2rem 1.5rem;
+    
+}
+#Featured-Services{
+    background-color: #0073bb;
+}
+.free-trials{
+    padding-top:0.6rem;
+}
+.free-trial {
+    font-size:12px;
+    color:#049bea;
+    font-weight:700;
+    margin-bottom:1rem;
+  
+}
+.product-service-heading{
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:0.5rem;
+}   
+.service-text{
+    font-size:13px;
+    font-weight: 500;
+}
+
+#Amazon-S3-service{
+  line-height:1rem;   
+}
+
+.product-viewlink{
+    text-align: center;
+    margin-bottom:4rem;
+    cursor:pointer;
+}
+.product-viewlink a,i{
+    color:#0972d3;
+    font-size:1.13rem;
+    margin:1rem 0rem 0rem 0rem;
+    font-weight: 400;
+    padding-top: 0.87rem;
+}
+/*---------------------------Training & Certification-------------------*/
+
+.training{
+    height:560px;
+    width:100%;
+    background-color: #1e2832;
+    display:flex;
+    flex-direction: column;
+}
+
+.training-Heading{
+    color:#ffffff;
+    font-size: 2.25rem;
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+}
+.training-options{
+    display: flex;
+    justify-content: center;
+    }
+
+.training-options a{
+    font-size:18px;
+    font-weight:650;
+    margin-left:1rem;
+
+}
+.build{
+    color:#ff9d00;
+}
+.decision:hover{
+    color:#ff9d00;
+}
+.training-text p{
+    font-size: 18px;
+    text-align: center;
+    color:#ffffff;
+    margin:30px 0px 0px 0px;
+}
+.training-card-container{
+    display:flex;
+    justify-content: center;
+    margin-top:2rem;
+}
+.training-cards{
+    height:18.75rem;
+    width: 23rem;
+    /* border:2px solid #ff9d00; */
+    padding:10px 10px 0px 10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.training-card-image{
+    padding-bottom: 1rem;
+}
+.training-card-heading{
+    font-size:1.125rem;
+    color:#ffffff;
+    font-weight: 550;
+    padding-bottom: 1rem;
+}
+.training-card-text{
+    font-size:0.9375rem;
+    color:#ffffffea; 
+    height:2.8rem;
+  
+}
+
+.training-card-link a,i{
+    font-size:0.9375rem;
+    color:#539fe5;
+    font-weight:700;
+    cursor:pointer;
+}
+#training-link-icon{
+    font-size:0.75rem;
+}
+
+/*----------------------Customer Stories--------------------------------*/
+
+.story-container{
+    padding-top:2rem;
+    display:flex;
+    justify-content: center;
+    margin-bottom:1.5rem;
+}
+.story-cards{
+    height:315px;
+    width:273px;
+    border:0.1rem solid rgb(15, 13, 13,0.5);
+    display:flex;
+    flex-direction: column;
+    margin-left:1.25rem;
+}
+.story-image img{
+    height:198px;
+    width:272px;
+}
+.story-link{
+    color:#049bea;
+    font-weight:700;
+    padding-top:0.5rem;
+}
+.story-link #story-link-id{
+    font-size: 12px;
+    color:#049bea;
+    font-weight:700;
+    padding-top:0.87rem;
+    cursor:pointer;
+}
+.story-text ,.story-link{
+  padding-left:0.87rem;
+  padding-right:0.87rem;
+}
+.story-text p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top:0.5rem;
+}
+
+/*------------------------------- Engineered For The Most Demanding Requirements -------------------------------------------------------*/
+
+.demanding-requirement{
+    height:405px;
+    width:100%;
+    background-color:#232f3e;
+}
+.Demanding-requirement-text h2{
+    color:#ffffff;
+    padding-top:2.25rem;
+    text-align: center;
+    font-size:2.25rem;
+}
+
+/*------------------------------- Engineered For The Most Demanding Requirements (  Cards  ) -------------------------------------------------------*/
+
+.D-requirements-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:1rem;
+}
+.D-requirements-cards{
+    height:265px;
+    width:300px;
+    padding:0rem 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.D-requirements-card-link p{
+    color:#539fe5;
+    font-size:20px;
+    font-weight:550;    
+}
+.D-requirements-card-text{
+    font-size: 16px;
+    color:#ffffff;
+    text-align: center;
+    font-weight: 300;
+}
+
+/*-----------------------   Global Network of AWS Regions  ---------------------------------*/
+.global-network{
+    margin-left:12rem;
+}
+.global-network-heading h2{
+    width:960px;
+    color:#232f3e;
+    padding-top:2.5rem;
+    text-align: center;
+    font-size:36px;
+  
+}
+.global-network-text{
+    width:960px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top:1.5rem;
+    margin-bottom:3.5rem;
+}
+.global-rich{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.map-view-links{
+    width:1080px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:3rem;
+}
+.map-link a,i,.map-view{
+    font-size: 16px;
+    color:#0174b2;
+    font-weight:400;
+    cursor:pointer;
+}
+.map-view i{
+    color:#000716;
+    margin-right:0.5rem;
+}
+
+
+/*------------------------------------------Other services------------------------------------------*/
+
+#other-feature{
+    height:231px;
+    width:278px;
+ } 
+/* ------------------------------------------- Footer -------------------------------------------------- */
+.footer-links-container{
+    height:23rem;
+    width:100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content:center;
+    
+}
+.footer-links{
+    height:332px;
+    width:240px;
+    font-size:14px;
+    padding:1rem;
+    line-height:1.8rem;
+    color:#ffffff;
+    margin-top:1rem;
+}
+.footer-links h3{
+    font-size: 20px;
+}
+.footer-links-list{
+    color:#ffffff;
+    font-weight: 400;
+}
+.footer-links-list:hover{
+    color:#ff7c01
+}
+.footer-link-icons i{
+    color:white;
+    font-size: 25px;
+    margin-left:0.5rem;
+}
+.footer-icon-buttons .account button{
+    width:230px;
+    margin-top:0.5rem;
+}
+.footer-icon-button-text{
+    color:#ffffff;
+    font-size: 14px;
+    width:210px;
+    margin-top:2rem;
+    line-height:25px;
+}
+.footer-text i{
+    color:white;
+    font-size: 14px;
+}
+.footer-end{
+    background-color:#eaeded;
+    height:52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-line{
+  color:black;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0rem 0.5rem
+} 
